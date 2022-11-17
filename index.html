@@ -10,35 +10,39 @@
   <link rel="preconnect" href="https://fonts.googleapis.com"> 
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
   <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap" rel="stylesheet">
-  <!--fonts link--> <!--font-family: 'Overpass', sans-serif;-->
+  <!--fonts link--> <!---->
 
   <title>Frontend Mentor | Interactive rating component</title>
 </head>
 <body>
+  <div class="container">
 
-  <!-- Rating state start -->
+    <div class="circle-icon">
+      <img class="star-icon" src="./images/icon-star.svg" alt="icon" />
+    </div>
 
-  How did we do?
+    <h2>How did we do?</h2>
+    <p>Please let us know how we did with your support request. All feedback is appreciated 
+      to help us improve our offering!</p>
+    <div class="principal-btn">
+      <button id="1" class="circle-button">1</button>
+      <button id="2" class="circle-button">2</button>
+      <button id="3" class="circle-button">3</button>
+      <button id="4" class="circle-button">4</button>
+      <button id="5" class="circle-button">5</button>
+    </div>
+    <button class="subm-btn">Submit</button>
+  </div>
 
-  Please let us know how we did with your support request. All feedback is appreciated 
-  to help us improve our offering!
 
-  1 2 3 4 5
+  <div class="hidden-container">
+    <img src="./images/illustration-thank-you.svg" alt="thankyouImage" />
+    <p class="choice">You selected <!-- Add rating here --> out of 5</p>
+    <h2>Thank you!</h2>
+    <p>We appreciate you taking the time to give a rating. If you ever need more support, 
+      don’t hesitate to get in touch!</p>
 
-  Submit
-
-  <!-- Rating state end -->
-
-  <!-- Thank you state start -->
-
-  You selected <!-- Add rating here --> out of 5
-
-  Thank you!
-
-  We appreciate you taking the time to give a rating. If you ever need more support, 
-  don’t hesitate to get in touch!
-
-  <!-- Thank you state end -->
+  </div>
 
 </body>
 </html>
