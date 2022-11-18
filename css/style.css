@@ -16,7 +16,7 @@ time, mark, audio, video {
   margin: 0;
   padding: 0;
   border: 0;
-  font-size: 100%;
+  font-size: 15px;
   font: inherit;
   vertical-align: baseline;
 }
@@ -50,30 +50,121 @@ table {
     --bodyBackground: hsl(216, 12%, 8%);
     ---containerBackground: hsl(213, 19%, 18%);
     --title: hsl(0, 0%, 100%);
-    --buttonCircle: hsl(217, 12%, 63%);
+    --buttonCircle: hsl(217, 20%, 30%);
     --paragraph: hsl(216, 12%, 54%);
     --callToAction: hsl(25, 97%, 53%);
 }
 
-.hidden-container{
-    display: none;
-}
+
 
 body{
     font-family: 'Overpass', sans-serif;
     background-color: var(--bodyBackground);
     color: white;
-    padding: 8%;
+    padding: 4%;
+    display: flex;
+    height: 100vh;
+    align-items: center;
 }
 
 .container{
     margin: 0 auto;
     background-color: var(---containerBackground);
-    padding: 8%;
-    border-radius: 10px;
+    padding: 6%;
+    border-radius: 15px;
 }
 
 h2{
     font-weight: 700;
     font-size: 1.5rem;
+    margin-bottom: 6%;
+}
+
+.circle-icon{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: var(--buttonCircle);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 6%;
+}
+
+.star-icon{
+  width: 40%;
+  height: 40%;
+}
+
+p{
+  color: var(--paragraph);
+  font-size: 1rem;
+  margin-bottom: 6%;
+}
+
+.principal-btn{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 6%;
+}
+.circle-button{
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  border: none;
+  color: var(--paragraph);
+  background-color: var(--buttonCircle);
+  font-size: 1rem;
+}
+
+.circle-button:hover{
+  background-color: var(--callToAction);
+  color: var(--title);
+}
+
+.circle-button:focus{
+  background-color: var(--paragraph);
+  color: var(--title);
+}
+
+.subm-btn{
+  text-align: center;
+  letter-spacing: 0.2rem;
+  font-weight: 400;
+  height: 45px;
+  margin: 0 auto;
+  border: none;
+  width: 100%;
+  border-radius: 50px;
+  background-color: var(--callToAction);
+  color: var(--title);
+}
+
+.subm-btn:hover{
+  background-color: var(--title);
+  color: var(--callToAction);
+}
+
+/*---Thank you Section ---*/
+
+.hidden-container{
+  margin: 0 auto;
+  background-color: var(---containerBackground);
+  padding: 6%;
+  border-radius: 15px;
+  text-align: center;
+  display: none;
+  
+}
+
+.choice {
+  background-color: var(--buttonCircle);
+  color: var(--callToAction);
+  width: 70%;
+  margin: 6% auto 6% auto;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
 }
