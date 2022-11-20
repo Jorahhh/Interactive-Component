@@ -74,6 +74,7 @@ body{
     border-radius: 15px;
     width: 300px;
     height: 320px;
+    display: block;
     
 }
 
@@ -158,6 +159,7 @@ p{
   text-align: center;
   width: 300px;
   height: 320px;
+  display: none;
  
 }
 
@@ -171,4 +173,11 @@ p{
   align-items: center;
   justify-content: center;
   border-radius: 50px;
+}
+
+#answer{
+  font-size: 1rem;
+  margin: 0 0.2rem 0 0.2rem;
+
+
 }

@@ -30,18 +30,19 @@
       <button id="4" class="circle-button">4</button>
       <button id="5" class="circle-button">5</button>
     </div>
-    <button class="subm-btn">SUBMIT</button>
+    <button class="subm-btn" id="submit">SUBMIT</button>
   </div>
 
 
   <div class="hidden-container">
     <img src="./images/illustration-thank-you.svg" alt="thankyouImage" />
-    <p class="choice">You selected <!-- Add rating here --> out of 5</p>
+    <div class="choice">You selected <span id="answer">0</span> out of 5</div>
+    <!--<p class="choice">You selected <span id="answer"> 0 </span> out of 5</p>-->
     <h2>Thank you!</h2>
     <p>We appreciate you taking the time to give a rating. If you ever need more support, 
       don’t hesitate to get in touch!</p>
   </div>
-  <script src="./script/script.js"></script>
 
+  <script src="./script/script.js"></script>
 </body>
 </html>
