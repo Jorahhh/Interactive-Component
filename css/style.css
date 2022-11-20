@@ -119,6 +119,7 @@ p{
   color: var(--paragraph);
   background-color: var(--buttonCircle);
   font-size: 1rem;
+  cursor: pointer;
 }
 
 .circle-button:hover{
@@ -143,6 +144,7 @@ p{
   border-radius: 50px;
   background-color: var(--callToAction);
   color: var(--title);
+  cursor: pointer;
 }
 
 .subm-btn:hover{
