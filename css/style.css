@@ -19,6 +19,7 @@ time, mark, audio, video {
   font-size: 15px;
   font: inherit;
   vertical-align: baseline;
+  box-sizing: border-box;
 }
 
 /* HTML5 display-role reset for older browsers */
@@ -70,10 +71,10 @@ body{
 .container{
     margin: 0 auto;
     background-color: var(---containerBackground);
-    padding: 30px;
+    padding: 25px;
     border-radius: 15px;
-    width: 300px;
-    height: 320px;
+    width: 320px;
+    height: 350px;
     display: block;
     
 }
@@ -157,13 +158,12 @@ p{
 .hidden-container{
   margin: 0 auto;
   background-color: var(---containerBackground);
-  padding: 30px;
+  padding: 25px;
   border-radius: 15px;
   text-align: center;
-  width: 300px;
-  height: 320px;
+  width: 320px;
+  height: 350px;
   display: none;
- 
 }
 
 .choice {
@@ -181,6 +181,4 @@ p{
 #answer{
   font-size: 1rem;
   margin: 0 0.2rem 0 0.2rem;
-
-
 }
